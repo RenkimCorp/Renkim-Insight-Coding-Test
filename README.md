@@ -1,11 +1,9 @@
 # Coding test for Renkim
 
 ## About this test
-Think of this as an open source project. How would this have to look in order for you to be impressed with it, if you were to find it on GitHub? Now go and do that.
+Please spend at least 60 minutes on this test. Feel free to take more time if you wish - make sure you are happy with your submission!
 
-Please spend at least 90 minutes on this test. Feel free to take more time if you wish - make sure you are happy with your submission!
-
-**Hint**: we are looking for a high-quality submission with great object oriented practices. Please take an object oriented approach and use linq when needed. Not a "get it done" approach. 
+**Hint**: we are looking for a high-quality submission with great object oriented practices. Please take an object oriented approach and use linq queries when needed. Not a "get it done" approach. 
 
 Remember that this test is your opportunity to show us how you think. Be clear about how you make decisions in your code, whether that is with comments, tests, or how you name things.
 
@@ -23,4 +21,4 @@ Follow the three steps below to submit your coding test to us.
 * Recreate an output file for all the records in the input test file that contain the following fields: id, first_name, last_name (OutputFile.txt).
 
 ### Third
-* Zip your code up and email to *.com 
+* Zip your code up and email to dherndon@renkim.com 

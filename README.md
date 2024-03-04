@@ -20,5 +20,5 @@ Follow the three steps below to submit your coding test to us.
 ### Third
 * Recreate an output file for all the records in the input test file that contain the following fields: id, first_name, last_name (OutputFile.txt).
 
-### Third
-* Zip your code up and email to dherndon@renkim.com 
+### Fourth
+* Zip your code up and email to nbeatty@renkim.com 

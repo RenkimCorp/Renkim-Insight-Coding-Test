@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1001",
+    "firstName": "John",
+    "lastName": "Smith",
+    "address": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "letterCode": "EMED",
+    "channel": "eNotice",
+    "totalBalance": 225.00
+  }
+]

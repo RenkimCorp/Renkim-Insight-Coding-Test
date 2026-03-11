@@ -1,20 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+namespace Renkim.Insight.CodingTest;
 
-namespace Renkim_Insight_Coding_Test
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Parse comma delimited file located in the root folder. It is named the following: TestFile.txt");
-            Console.WriteLine("Print out the following fields for records that are addressed to NY and FL: id, first_name, last_name");
+        Console.WriteLine("=== Coding Assessment ===");
+        Console.WriteLine();
 
-            Console.WriteLine("Recreate an output file for all the records in the input test file that contain the following fields: id, first_name, last_name");
-            Console.WriteLine("The new output file should be named the following: OutTestFile.txt");
-        }
+        // TODO: Phase 1 - Parse InputFiles/PipeDelimited.txt and InputFiles/CsvFile.txt
+        //       into a common data model.
+
+        // TODO: Phase 2 - Apply business rules (channel determination, letter codes, suppression).
+        //       Print NY and FL records to console.
+
+        // TODO: Phase 3 - Generate OutputHeader.json and OutputDetails.json
+        //       for non-suppressed records.
+
+        // TODO: Phase 4 - Add support for InputFiles/FixedWidth.txt without modifying
+        //       existing parser classes.
+
+        Console.WriteLine();
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
     }
 }

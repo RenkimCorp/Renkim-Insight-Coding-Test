@@ -1,0 +1,13 @@
+HBATCH003     20240115
+D3001  Emily     Turner    500 Beach Blvd    Tampa         FL33601emily@x.com 5557778888
+L3001  INV-030   00350.00MED
+L3001  INV-031   00125.00DEN
+D3002  David     Clark     600 Forest Ln     Syracuse      NY13201              5554443333
+L3002  INV-032   00275.00MED
+D3003  Rachel    Adams     700 River Way     Jacksonville  FL32099rachel@t.com
+L3003  INV-033   00180.00VIS
+D3004  James     Wright                      Bronx         NY10451james@x.com
+L3004  INV-034   00220.00MED
+D3005  Maria     Lopez     900 Oak Circle    Sarasota      FL34230              5551239999
+L3005  INV-035   00400.00DEN
+L3005  INV-036   00050.00MED

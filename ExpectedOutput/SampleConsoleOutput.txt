@@ -1,0 +1,40 @@
+This is a sample of what the console output should look like for Phase 2.
+Your exact formatting may vary, but the data and decisions must match.
+
+================================================================================
+PROCESSING: PipeDelimited.txt
+================================================================================
+
+Id: 1001 | Name: John Smith       | State: NY | Channel: eNotice | LetterCode: EMED  | Balance: $225.00  | Status: Active
+Id: 1002 | Name: Jane Doe         | State: FL | Channel: Print   | LetterCode: MED   | Balance: $200.00  | Status: Active
+Id: 1004 | Name: Alice Johnson    | State: NY | Channel: eNotice | LetterCode: EMED  | Balance: $150.00  | Status: Active
+Id: 1005 | Name: Carlos Rivera    | State: FL | Channel: eNotice | LetterCode: EMED  | Balance: $175.00  | Status: SUPPRESSED (Missing address)
+Id: 1006 | Name: Diana Chen       | State: NY | Channel: SMS     | LetterCode: TMED  | Balance: $0.00    | Status: SUPPRESSED (Zero balance)
+Id: 1007 | Name: Edward Park      | State: FL | Channel: eNotice | LetterCode: EVIS  | Balance: $500.00  | Status: Active
+Id: 1008 | Name: Fatima Hassan    | State: NY | Channel: eNotice | LetterCode: EDEN  | Balance: $90.00   | Status: SUPPRESSED (Missing city or zip)
+
+================================================================================
+PROCESSING: CsvFile.txt
+================================================================================
+
+Id: 2001 | Name: Tom Brown        | State: FL | Channel: eNotice | LetterCode: EMED  | Balance: $250.00  | Status: Active
+Id: 2002 | Name: Sara Davis       | State: NY | Channel: SMS     | LetterCode: TDEN  | Balance: $175.00  | Status: Active
+Id: 2004 | Name: Lisa Wang        | State: FL | Channel: eNotice | LetterCode: EMED  | Balance: $0.00    | Status: SUPPRESSED (Zero balance)
+Id: 2005 | Name: Ryan Scott       | State: NY | Channel: SMS     | LetterCode: TDEN  | Balance: $320.00  | Status: SUPPRESSED (Missing address)
+Id: 2006 | Name: Nina Patel       | State: FL | Channel: eNotice | LetterCode: EMED  | Balance: $185.00  | Status: Active
+Id: 2007 | Name: Omar Ali         | State: NY | Channel: eNotice | LetterCode: EVIS  | Balance: $95.00   | Status: Active
+Id: 2008 | Name: Grace Kim        | State: NY | Channel: Print   | LetterCode: MED   | Balance: $150.00  | Status: Active
+
+================================================================================
+PROCESSING: FixedWidth.txt
+================================================================================
+
+Id: 3001 | Name: Emily Turner     | State: FL | Channel: eNotice | LetterCode: EMED  | Balance: $475.00  | Status: Active
+Id: 3002 | Name: David Clark      | State: NY | Channel: SMS     | LetterCode: TMED  | Balance: $275.00  | Status: Active
+Id: 3003 | Name: Rachel Adams     | State: FL | Channel: eNotice | LetterCode: EVIS  | Balance: $180.00  | Status: Active
+Id: 3004 | Name: James Wright     | State: NY | Channel: eNotice | LetterCode: EMED  | Balance: $220.00  | Status: SUPPRESSED (Missing address)
+Id: 3005 | Name: Maria Lopez      | State: FL | Channel: SMS     | LetterCode: TDEN  | Balance: $450.00  | Status: Active
+
+NOTE: Only NY and FL records are displayed. TX records (1003, 2003) are excluded from console output.
+NOTE: Suppressed records ARE displayed but clearly marked with the suppression reason.
+NOTE: FixedWidth.txt output is only expected after Phase 4 is completed.

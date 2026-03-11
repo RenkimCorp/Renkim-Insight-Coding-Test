@@ -1,0 +1,9 @@
+id,first_name,last_name,address,city,state,zip,email,phone,invoice_id,amount,category
+2001,Tom,Brown,100 River Rd,Orlando,FL,32801,tom@email.com,5551112222,INV-020,250.00,Medical
+2002,Sara,Davis,200 Lake Dr,Albany,NY,12207,,5553334444,INV-021,175.00,Dental
+2003,Mike,Lee,300 Hill St,Dallas,TX,75201,mike@test.com,,INV-022,400.00,Vision
+2004,Lisa,Wang,400 Park Blvd,Tampa,FL,33602,lisa@email.com,5556667777,INV-023,0.00,Medical
+2005,Ryan,Scott,,Syracuse,NY,13201,,5559990000,INV-024,320.00,Dental
+2006,Nina,Patel,600 Beach Ave,Ft Lauderdale,FL,33301,nina@email.com,,INV-025,185.00,Medical
+2007,Omar,Ali,700 State St,Rochester,NY,14607,omar@email.com,5552224444,INV-026,95.00,Vision
+2008,Grace,Kim,800 First Ave,Yonkers,NY,10701,,,INV-027,150.00,Medical

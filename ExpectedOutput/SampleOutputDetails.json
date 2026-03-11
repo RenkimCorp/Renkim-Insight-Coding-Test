@@ -1,0 +1,14 @@
+[
+  {
+    "parentId": "1001",
+    "invoiceId": "INV-001",
+    "amount": 150.00,
+    "category": "Medical"
+  },
+  {
+    "parentId": "1001",
+    "invoiceId": "INV-002",
+    "amount": 75.00,
+    "category": "Dental"
+  }
+]
